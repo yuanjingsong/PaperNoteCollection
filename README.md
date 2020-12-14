@@ -44,7 +44,8 @@ In this repo, it records some paper related to storage system, including **Data 
 12. *Probabilistic Deduplication for Cluster-Based Storage Systems*----SoCC'12 ([link](https://dl.acm.org/citation.cfm?id=2391246))
 13. Can't We All Get Along? Redesigning Protection Storage for Modern Workloads----USENIX ATC'18 ([link](https://www.usenix.org/system/files/conference/atc18/atc18-allu.pdf)) [summary](https://yzr95924.github.io/paper_summary/Redesigning-ATC'18.html)
 14. *Deduplication in SSDs: Model and quantitative analysis*----MSST'12 ([link](https://ieeexplore.ieee.org/document/6232379))
-15. Austere Flash Caching with Deduplication and Compression---ATC'20 ([link](https://www.usenix.org/conference/atc20/presentation/wang-qiuping))
+15. *SiLo: A Similarity-Locality based Near-Exact Deduplication Scheme withLow RAM Overhead and High Throughput* ---- ATC'11 ([link](https://www.usenix.org/legacy/events/atc11/tech/final_files/Xia.pdf))
+16. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads* ----FAST'15 ([link](https://www.usenix.org/conference/fast15/technical-sessions/presentation/fu)) 
 
 ### Restore Performance
 1. *RevDedup: A Reverse Deduplication Storage System Optimized for Reads to Latest Backups*----APSys'13 ([link](http://adslab.cse.cuhk.edu.hk/pubs/apsys13.pdf)) [summary](https://yzr95924.github.io/paper_summary/RevDedup-APSys'13.html)
@@ -92,6 +93,7 @@ In this repo, it records some paper related to storage system, including **Data 
 3. *MAD2: A Scalable High-throughput Exact Deduplication Approach for Network Backup Services*----MSST'10
 4. *Block Locality Caching for Data Deduplication*----SYSTOR'13 ([link](https://dl.acm.org/citation.cfm?id=2485748))
 5. *HANDS: A Heuristically Arranged Non-Backup In-line Deduplication System*----ICDE'13 ([link](https://www.ssrc.ucsc.edu/Papers/ssrctr-12-03.pdf))
+6. *Austere Flash Caching with Deduplication and Compression*---ATC'20 ([link](https://www.usenix.org/conference/atc20/presentation/wang-qiuping))
 
 ### Deduplication Estimation
 
@@ -105,6 +107,8 @@ In this repo, it records some paper related to storage system, including **Data 
 ### Post-Deduplication: Data Compression
 1. *Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression*----FAST'19 [summary](https://yzr95924.github.io/paper_summary/Finesse-FAST'19.html)
 2. *The Design of a Similarity Based Deduplication System*----SYSTOR'09
+3. *Ddelta: A deduplication-inspired fast delta compression approach* ---- Performance Evaluation ([link](https://www.sciencedirect.com/science/article/pii/S0166531614000790))
+4. *Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio* ---- TOPDS'2020 ([link](https://ieeexplore.ieee.org/abstract/document/9229609))
 
 ### Memory && Block-Layer Deduplication
 1. *UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling*----FAST'18 [summary](https://yzr95924.github.io/paper_summary/UKSM-FAST'18.html)
@@ -120,6 +124,7 @@ In this repo, it records some paper related to storage system, including **Data 
 6. *MUCH: Multi-threaded Content-Based File Chunking*----TC'15
 7. *Multi-Level Comparison of Data Deduplication in a Backup Scenario*----SYSTOR'09
 8. *A Framework for Analyzing the Improving Content-Based Chunking Algorithms*----HP Technique Report'05
+9. *FastCDC - The Design of Fast Content-Defined Chunking for Data Deduplication Based Storage Systems* ---- IEEE TOPDS' 2020 [link](https://ieeexplore.ieee.org/abstract/document/9055082) 
 
 
 ### Deduplication Reliability
@@ -135,7 +140,8 @@ In this repo, it records some paper related to storage system, including **Data 
 1. *SDGen: Mimicking Datasets for Content Generation in Storage Benchmarks*----FAST'15 ([link](https://www.usenix.org/system/files/conference/fast15/fast15-paper-gracia-tinedo.pdf))
 
 ### Garbage Collection
-1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf))
+1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf)) 
+2. *The Logic of Physical Garbage Collection in Deduplicating Storage* ---- FAST'17 [link](https://www.usenix.org/conference/fast17/technical-sessions/presentation/douglis)
 
 ## B. Erasure Coding
 
