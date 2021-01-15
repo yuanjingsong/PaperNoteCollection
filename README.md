@@ -34,7 +34,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *dedupv1: Improving Deduplication Throughput using Solid State Drives (SSD)*----MSST'10 ([link](https://ieeexplore.ieee.org/document/5496992)) [summary](https://yzr95924.github.io/paper_summary/dedupv1-MSST'10.html)
 3. *Extreme Binning: Scalable, Parallel Deduplication for Chunk-based File Backup*----MASCOTS'09 ([link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.467.1985&rep=rep1&type=pdf)) [summary](https://yzr95924.github.io/paper_summary/ExtremeBining-MASCOTS'09.html)
 4. *Sparse Indexing: Large Scale, Inline Deduplication Using Sampling and Locality*----FAST'09 ([link](https://pdfs.semanticscholar.org/6585/e111960d2b170bb6677865b73b6d1f27d71a.pdf)) [summary](yzr95924.github.io/paper_summary/SparseIndex-FAST'09.html)
-5. *Building a High-performance Deduplication System*----USENIX ATC'11
+5. *Building a High-performance Deduplication System*----USENIX ATC'11([link](https://www.usenix.org/legacy/events/atc11/tech/final_files/GuoEfstathopoulos.pdf)) 
 6. *Primary Data Deduplication - Large Scale Study and System Design*----USENIX ATC'12
 7. *Storage Efficiency Opportunities and Analysis for Video Repositories*----HotStorage'15
 8. *Venti: A New Approach to Archival Storage*----FAST'02 ([link](https://www.usenix.org/legacy/publications/library/proceedings/fast02/quinlan/quinlan.pdf))
