@@ -141,7 +141,7 @@ In this repo, it records some paper related to storage system, including **Data 
 
 ### Garbage Collection
 1. *Memory Efficient Sanitization of a Deduplicated Storage System*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final100_0.pdf)) 
-2. *The Logic of Physical Garbage Collection in Deduplicating Storage*----FAST'17 ([link](https://www.usenix.org/conference/fast17/technical-sessions/presentation/douglis))
+2. *The Logic of Physical Garbage Collection in Deduplicating Storage*----FAST'17 ([link](https://www.usenix.org/conference/fast17/technical-sessions/presentation/douglis))([summary](https://www.cnblogs.com/wAther/p/14291170.html))
 3. *A scalable dedupliation and garbage collection engine for incremental backup*----SYSTOR'13 ([link](https://dl.acm.org/doi/abs/10.1145/2485732.2485753))
 4. *Concurrent Deletion in a Distributed Content-AddressableStorage Systemwith Global Deduplication*----FAST'13 ([link](https://www.usenix.org/conference/fast13/technical-sessions/presentation/strzelczak))
 
