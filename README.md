@@ -99,7 +99,7 @@ In this repo, it records some paper related to storage system, including **Data 
 7. *Sketching Volume Capacities in Deduplicated Storage* ---- FAST'19 ([link](https://www.usenix.org/system/files/fast19-harnik.pdf))
 
 ### Post-Deduplication: Data Compression
-1. *Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression*----FAST'19 [summary](https://yzr95924.github.io/paper_summary/Finesse-FAST'19.html)
+1. *Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression*----FAST'19 ([link](https://www.usenix.org/system/files/fast19-zhang.pdf)) [summary](https://yzr95924.github.io/paper_summary/Finesse-FAST'19.html)
 2. *The Design of a Similarity Based Deduplication System*----SYSTOR'09
 3. *Ddelta: A deduplication-inspired fast delta compression approach* ---- Performance Evaluation ([link](https://www.sciencedirect.com/science/article/pii/S0166531614000790))
 4. *Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio* ---- TOPDS'2020 ([link](https://ieeexplore.ieee.org/abstract/document/9229609))
