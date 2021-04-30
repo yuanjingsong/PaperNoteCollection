@@ -1,17 +1,7 @@
 # Storage System Paper List
 In this repo, it records some paper related to storage system, including **Data Deduplication** (aka, dedup), **Erasure Coding** (aka, EC), general **Distributed Storage System** (aka, DSS) and other related topics (i.e., Network Security.....), updating from time to time~
+
 [TOC]
-
-
-
-| Type                    | Paper Amount |
-| ----------------------- | ------------ |
-| A. Data Deduplication   | 83           |
-| B. Erasure Coding       | 37           |
-| C. Security and Privacy | 12           |
-| D. Other                | 7            |
-
-
 
 ## A. Data Deduplication
 
@@ -27,6 +17,7 @@ In this repo, it records some paper related to storage system, including **Data 
 2. *A Study of Practical Deduplication*----FAST'11 ([link](https://www.usenix.org/legacy/event/fast11/tech/full_papers/Meyer.pdf)) [summary](https://yzr95924.github.io/paper_summary/PracticalDedup-FAST'11.html)
 3. *A Long-Term User-Centric Analysis of Deduplication Patterns*----MSST'16 ([link](https://www.fsl.cs.sunysb.edu/docs/msst16dedup-study/data-set-analysis.pdf))
 4. *Capacity Forecasting in a Backup Storage Environment*----LISA'11 ([link](https://www.usenix.org/legacy/events/lisa11/tech/full_papers/Chamness.pdf)) [summary](https://yzr95924.github.io/paper_summary/CapacityForecasting-LISA'11.html)
+5. *Generating Realistic Datasets for Deduplication Analysis* ---- ATC'12 ([link](https://www.usenix.org/conference/atc12/technical-sessions/presentation/tarasov)) 
 
 
 ### Deduplication System Design
@@ -46,6 +37,7 @@ In this repo, it records some paper related to storage system, including **Data 
 14. *Deduplication in SSDs: Model and quantitative analysis*----MSST'12 ([link](https://ieeexplore.ieee.org/document/6232379))
 15. *SiLo: A Similarity-Locality based Near-Exact Deduplication Scheme withLow RAM Overhead and High Throughput* ---- ATC'11 ([link](https://www.usenix.org/legacy/events/atc11/tech/final_files/Xia.pdf))
 16. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads* ----FAST'15 ([link](https://www.usenix.org/conference/fast15/technical-sessions/presentation/fu)) 
+17. *The Dilemma between Deduplication and Locality: Can Both be Achieved?* ---- FAST'21 ([link](https://www.usenix.org/conference/fast21/presentation/zou))
 
 ### Restore Performance
 1. *RevDedup: A Reverse Deduplication Storage System Optimized for Reads to Latest Backups*----APSys'13 ([link](http://adslab.cse.cuhk.edu.hk/pubs/apsys13.pdf)) [summary](https://yzr95924.github.io/paper_summary/RevDedup-APSys'13.html)
@@ -81,10 +73,11 @@ In this repo, it records some paper related to storage system, including **Data 
 22. *PerfectDedup: Secure Data Deduplication*----Data Privacy Management, and Security Assurance'15 ([link](http://www.eurecom.fr/fr/publication/4683/download/rs-publi-4683.pdf))
 
 ### Metadata Management
-1. *Metadedup: Deduplicating Metadata in Encrypted Deduplication via Indirection*----MSST'19
+1. *Metadedup: Deduplicating Metadata in Encrypted Deduplication via Indirection*----MSST'19 ([link](https://ieeexplore.ieee.org/document/8890207))
 2. *Rekeying for Encrypted Deduplication Storage*----DSN'16 ([link](http://adslab.cse.cuhk.edu.hk/pubs/dsn16reed.pdf)) [summary](https://yzr95924.github.io/paper_summary/REED-DSN'16.html)
 3. *File Recipe Compression in Data Deduplication Systems*----FAST'13 ([link](https://www.usenix.org/system/files/conference/fast13/fast13-final54.pdf)) [summary](https://yzr95924.github.io/paper_summary/FileRecipeCompression-FAST'13.html)
 4. *Metadata Considered Harmful ... to Deduplication*----HotStorage'15 ([link](https://www.usenix.org/system/files/conference/hotstorage15/hotstorage15-lin.pdf)) [summary](https://yzr95924.github.io/paper_summary/MetadataHarmful-HotStorage'15.html)
+5. *GoSeed: Generating an Optimal Seeding Plan for Deduplicated Storage* ---- FAST'19 ([link](https://www.usenix.org/conference/fast20/presentation/nachman)) (* This paper is actually not for metadata management, it is for balancing data in data transfer between volumes)
 
 
 ### Indexing & Caching
@@ -103,12 +96,14 @@ In this repo, it records some paper related to storage system, including **Data 
 4. *Estimating Duplication by Content-based Sampling*----USENIX ATC'13 [summary](https://yzr95924.github.io/paper_summary/ContentBasedSampling-ATC'13.html)
 5. *Content-aware Load Balancing for Distributed Backup*----LISA'11 ([link](https://www.usenix.org/legacy/event/lisa11/tech/full_papers/Chamness.pdf))
 6. *Rangoli: Space Management in Deduplication Environments*----SYSTOR'13 ([link](https://atg.netapp.com/wp-content/uploads/2013/07/Systor13-Rangoli.pdf))
+7. *Sketching Volume Capacities in Deduplicated Storage* ---- FAST'19 ([link](https://www.usenix.org/system/files/fast19-harnik.pdf))
 
 ### Post-Deduplication: Data Compression
 1. *Finesse: Fine-Grained Feature Locality based Fast Resemblance Detection for Post-Deduplication Delta Compression*----FAST'19 [summary](https://yzr95924.github.io/paper_summary/Finesse-FAST'19.html)
 2. *The Design of a Similarity Based Deduplication System*----SYSTOR'09
 3. *Ddelta: A deduplication-inspired fast delta compression approach* ---- Performance Evaluation ([link](https://www.sciencedirect.com/science/article/pii/S0166531614000790))
 4. *Exploring the Potential of Fast Delta Encoding: Marching to a Higher Compression Ratio* ---- TOPDS'2020 ([link](https://ieeexplore.ieee.org/abstract/document/9229609))
+5. *Odess: Speeding up Resemblance Detection for RedundancyElimination by Fast Content-Defined Sampling* ---- ICDE' 2021 ([link](https://www.researchgate.net/profile/Xiangyu-Zou-4/publication/351037342_Odess_Speeding_up_Resemblance_Detection_for_Redundancy_Elimination_by_Fast_Content-Defined_Sampling/links/60806985881fa114b41b6604/Odess-Speeding-up-Resemblance-Detection-for-Redundancy-Elimination-by-Fast-Content-Defined-Sampling.pdf))
 
 ### Memory && Block-Layer Deduplication
 1. *UKSM: Swift Memory Deduplication via Hierarchical and Adaptive Memory Region Distilling*----FAST'18 [summary](https://yzr95924.github.io/paper_summary/UKSM-FAST'18.html)
