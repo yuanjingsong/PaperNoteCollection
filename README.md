@@ -38,6 +38,7 @@ In this repo, it records some paper related to storage system, including **Data 
 15. *SiLo: A Similarity-Locality based Near-Exact Deduplication Scheme withLow RAM Overhead and High Throughput* ---- ATC'11 ([link](https://www.usenix.org/legacy/events/atc11/tech/final_files/Xia.pdf))
 16. *Design Tradeoffs for Data Deduplication Performance in Backup Workloads* ----FAST'15 ([link](https://www.usenix.org/conference/fast15/technical-sessions/presentation/fu)) 
 17. *The Dilemma between Deduplication and Locality: Can Both be Achieved?* ---- FAST'21 ([link](https://www.usenix.org/conference/fast21/presentation/zou))
+18. *Remap-SSD: Safely and Efficiently Exploiting SSD Address Remapping to Eliminate Duplicate Writes* ----FAST'21 ([link](https://www.usenix.org/conference/fast21/presentation/zhou))
 
 ### Restore Performance
 1. *RevDedup: A Reverse Deduplication Storage System Optimized for Reads to Latest Backups*----APSys'13 ([link](http://adslab.cse.cuhk.edu.hk/pubs/apsys13.pdf)) [summary](https://yzr95924.github.io/paper_summary/RevDedup-APSys'13.html)
